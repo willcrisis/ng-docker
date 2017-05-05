@@ -58,7 +58,7 @@ To:
 
 2. It will also open and map the `49153` port. This is needed for Live Reloading to work.
 
-3. The `init.sh` script will delete the `node_modules` folder and reinstall all dependencies always when you start the container. This can take some time before the app become available.
+3. The `init.sh` script will run `npm install` always when you start the container. This can take some time before the app become available.
 
 ## Contributions
 
