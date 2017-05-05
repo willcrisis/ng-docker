@@ -1,0 +1,10 @@
+version: '2'
+services:
+  web:
+    container_name: ng-web
+    build: .
+    ports:
+     - "4200:4200"
+     - "49153:49153"
+    volumes:
+     - .:/app
